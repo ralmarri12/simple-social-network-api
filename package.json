@@ -1,0 +1,38 @@
+{
+  "name": "simple-social-network-api",
+  "version": "0.0.0",
+  "description": "Simple social network api endpoints",
+  "main": "engine.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node engine.js",
+    "start-dev": "nodemon"
+  },
+  "keywords": [
+    "api",
+    "social",
+    "network",
+    "simple",
+    "endpoints"
+  ],
+  "author": {
+    "name": "Rashid F.",
+    "url": "https://twitter.com/Ralmarri12",
+    "email": "r.almarri12@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ralmarri12/simple-social-network-api"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.15.1"
+  }
+}
