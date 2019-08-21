@@ -8,6 +8,7 @@ module.exports = {
     "database": DB_NAME,
     "host": DB_HOST,
     "dialect": DB_DIALECT,
+    "logging": false,
     "define": {
       underscored: true,
       charset: 'utf8mb4',
