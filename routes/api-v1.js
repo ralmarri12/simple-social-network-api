@@ -15,4 +15,8 @@ router.post('/playground', (req, res, next) => {
 });
 // #endregion
 
+// #region (authentication)
+const signup = require('../components/authentication/signup');
+router.post('/signup', signup);
+// #endregion
 module.exports = router;
