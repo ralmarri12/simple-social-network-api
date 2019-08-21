@@ -54,10 +54,6 @@ const generateToken = async (userObject) => {
         age: time.getTime()
     });
 
-    console.log("Source:")
-    console.log(userObjectWithAge);
-    console.log("Distination:")
-
     const result = await jwt.encode(process.env.TOKEN_HASH_KEY, {userObjectWithAge});
     return result;
 };
